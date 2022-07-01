@@ -1,0 +1,51 @@
+ *{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+header{
+	background-image: url(karen.jpg);
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+.main {
+	position: absolute;
+	height: auto;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.main .head{
+	position: relative;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-family: 'lato',sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	color: #fff;
+}
+.main .btns{
+	position: relative;
+	height: auto;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main .btns a{
+	margin-left:1%;
+	font-size:18px;
+	font-family:'cinzel',sans-serif;
+	font-weight: 300;
+	cursor: pointer;
+	border:1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
